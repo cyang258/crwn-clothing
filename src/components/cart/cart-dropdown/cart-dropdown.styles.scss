@@ -15,7 +15,11 @@
     height: 240px;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: auto;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
   }
 
   button {
