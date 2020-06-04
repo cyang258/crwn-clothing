@@ -20,8 +20,8 @@ $breakpoint-tablet: 768px;
   position: relative;
 
   .image {
-    width: 100%;
-    height: 95%;
+    min-width: 100%;
+    min-height: 95%;
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
