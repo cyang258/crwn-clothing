@@ -57,7 +57,7 @@ Technologies that I used to develop this frontend app
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com//crwn-clothing.git
+$ git clone https://github.com/cyang258/crwn-clothing.git
 
 $ cd crwn-clothing
 
@@ -92,25 +92,3 @@ Remember to replace the `config` variable in your `firebase.utils.js `with your 
 ## Set your stripe publishable key
 
 Set the `publishableKey` variable in the `stripe-button.component.jsx` with your own publishable key from the stripe dashboard.
-
-## 🤔 How to contribute 
-
-**Follow the steps below**
-
-```bash
-# Clone your fork
-$ git clone https://github.com/cyang258/crwn-clothing.git
-
-$ cd crwn-clothing
-
-# Create a branch with your feature
-$ git checkout -b your-feature
-
-# Make the commit with your changes
-$ git commit -m 'feat: Your new feature'
-
-# Send the code to your remote branch
-$ git push origin your-feature
-```
-
-After your pull request is merged, you can delete your branch
