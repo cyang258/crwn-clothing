@@ -1,68 +1,116 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Crwn-Clothing is an application built on React.js
 
-## Available Scripts
+<p align="center"> 
+  <a href="#-frontend-technologies">Frontend Technologies</a>&nbsp;|&nbsp;
+  <a href="#-Getting-started">Getting Started</a>&nbsp;|&nbsp
+  <a href="#-backend-technologies">Backend Technologies</a>&nbsp;&nbsp;|&nbsp;&nbsp;  
+</p>
 
-In the project directory, you can run:
+## 👨🏻‍💻 About the project
 
-### `npm start`
+ This is an E-commerce application similar to Shopify using React, Redux, React Router, Context API, Firebase, Stripe + more. This is going to be a full stack app (MERN stack), using Firebase.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ - React
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- React Router
 
-### `npm test`
+- Redux
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Redux Saga
 
-### `npm run build`
+- Asynchronous Redux
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React Hooks
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Context API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React Suspense + React Lazy
 
-### `npm run eject`
+- Firebase
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Stripe API
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Styled-Components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🚀 Frontend Technologies
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img width="1080" alt="Home" src="https://github.com/cyang258/crwn-clothing/assets/33134418/7df81184-15bf-457c-96bd-6fa8424e316f">
 
-## Learn More
+Technologies that I used to develop this frontend app
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [ReactJS](https://reactjs.org)
+- [Sass](https://sass-lang.com/)
+- [Firebase](https://firebase.google.com/)
+- [React Router](https://github.com/ReactTraining/react-router)
+- [React Redux](https://react-redux.js.org/)
+- [React Stripe](https://stripe.com/docs/stripe-js/react)
+- [VS Code](https://code.visualstudio.com) with [ESLInt](https://eslint.org/docs/user-guide/getting-started), and [Prettier RC](https://github.com/prettier/prettier)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💻 Getting started
 
-### Code Splitting
+### Requirements
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+**Clone the project and access the folder**
 
-### Making a Progressive Web App
+```bash
+$ git clone https://github.com//crwn-clothing.git
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+$ cd crwn-clothing
 
-### Advanced Configuration
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+**Follow the steps below**
 
-### Deployment
+```bash
+# Install the dependencies
+$ yarn
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+# Run the web app
+$ yarn dev
+```
 
-### `npm run build` fails to minify
+## 💻 Backend Technologies
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Technologies that I used to develop this backend app
+### Requirements
+
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
+- [nodemon](https://nodemon.io/)
+- [Express](https://expressjs.com/)
+- [body-parser](https://github.com/expressjs/body-parser)
+- [dotenv](https://github.com/motdotla/dotenv)
+
+## Set your firebase config
+
+Remember to replace the `config` variable in your `firebase.utils.js `with your own config object from the firebase dashboard! Navigate to the project settings and scroll down to the config code. Copy the object in the code and replace the variable in your cloned code.
+
+## Set your stripe publishable key
+
+Set the `publishableKey` variable in the `stripe-button.component.jsx` with your own publishable key from the stripe dashboard.
+
+## 🤔 How to contribute 
+
+**Follow the steps below**
+
+```bash
+# Clone your fork
+$ git clone https://github.com/cyang258/crwn-clothing.git
+
+$ cd crwn-clothing
+
+# Create a branch with your feature
+$ git checkout -b your-feature
+
+# Make the commit with your changes
+$ git commit -m 'feat: Your new feature'
+
+# Send the code to your remote branch
+$ git push origin your-feature
+```
+
+After your pull request is merged, you can delete your branch
